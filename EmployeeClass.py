@@ -2,12 +2,12 @@
 
 class Employee: 
 
-    def __init__(self, name_1, idNumber_1, department_1, JobTitle_1, salary_1):
+    def __init__(self, name_1, idNumber_1, department_1, JobTitle_1, monthlysalary_1):
         self.__name = name_1
         self.__idNumber = idNumber_1
         self.__department = department_1
         self.__JobTitle = JobTitle_1
-        self.__salary = salary_1
+        self.__monthlysalary = monthlysalary_1
 
     def set_name(self, i_name):
         self.__name = i_name
@@ -21,8 +21,8 @@ class Employee:
     def set_JobTitle(self,JobTitle_1):
         self.__JobTitle = JobTitle_1
     
-    def set_salary(self,salary_1):
-        self.__salary = salary_1
+    def set_monthlysalary(self,monthlysalary_1):
+        self.__monthlysalary = mothlysalary_1
 
     def get_name(self):
         return self.__name
@@ -36,5 +36,5 @@ class Employee:
     def get_JobTitle(self):
         return self.__JobTitle
     
-    def get_salary(self):
-        return self.__salary
+    def get_monthlysalary(self):
+        return self.__monthlysalary
